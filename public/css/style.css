@@ -1,0 +1,28 @@
+nav {
+  background-color: #80CBC4;
+  height: 80px;
+  color: white;
+}
+
+ul {
+  display: inline;
+  list-style: none;
+  display: flex;
+}
+
+a {
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  display: block;
+  color: #4F9A94;
+  height: 20px;
+  align-items: center;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
