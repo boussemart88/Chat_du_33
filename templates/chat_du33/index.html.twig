@@ -1,10 +1,28 @@
 {% extends 'base.html.twig' %}
 
 
+
 {% block title %}
 {% endblock %}
 
 {% block body %}
+
+{#block Famille d'accueil#}
+<div class="fa">
+<img src="{{ asset('image/fa.jpeg' )}}" title="index">
+<h1>Devenir famille d'accueil</h1>
+<p>Notre association peut compter sur ses familles d’accueil pour prendre soins des pensionnaires en convalescence, en attente d’adoption, en biberonnage et en panier retraite.
+
+Vous êtes disponible, vous avez un amour inconditionnel pour les chats ainsi qu’une bonne connaissance de leurs besoins ? Devenez famille d’accueil !</p>
+
+<button class="blanc">En savoir plus</button>
+</div>
+
+{#block reseau sociaux#}
+<button class="reseau"><i class="fab fa-instagram"></i></button>
+<button class="reseau"><i class="fab fa-facebook-square"></i></button>
+<button class="reseau"><i class="fab fa-youtube"></i></button>
+
 
 {% endblock %}
 

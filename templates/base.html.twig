@@ -26,25 +26,32 @@
 				<li>
 					<a href="">Accueil</a>
 				</li>
-			<ul>
-				<li>
-					<a href="">Nos chats</a>
-				</li>
-				<li>
-					<a href="">A dopter</a>
-				</li>
+				<ul>
+					<li>
+						<a href="">Nos chats</a>
+					</li>
+					<li>
+						<a href="">A dopter</a>
+					</li>
 					<a href="">Adopter</a>
+					<li>
+						<a href="">Famille d'Accueil</a>
+					</li>
+				</ul>
 				<li>
-					<a href="">Famille d'Accueil</a>
+					<a href="">Contact</a>
+				</li>
+				<li>
+					<a href="">Utilisateur</a>
 				</li>
 			</ul>
-				<li><a href="">Contact</a></li>
-				<li><a href="">Utilisateur</a></li>
-			</ul>
-
-
+			<div class="bandeau">
+			</div>
 		</nav>
+
 		{% block body %}{% endblock %}
+		{% include 'footer.html.twig' %}
 		{% block javascripts %}{% endblock %}
+
 	</body>
 </html>
