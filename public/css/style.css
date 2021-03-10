@@ -38,10 +38,12 @@ img {
 
 p {
   color: white;
+  text-align: center;
 }
 
 h1 {
   color: white;
+  text-align: center;
 }
 
 .footer {
@@ -73,6 +75,7 @@ img {
   height: 20%;
   border-radius: 10px;
   background-color: #4f9a94;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
